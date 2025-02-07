@@ -112,11 +112,7 @@ add_executable(pwm
 
 - Ajusta o ângulo do servomotor com base na largura do pulso em microsegundos.
 
-3. set_rgb_color:
-
-- Ajusta os níveis de PWM para cada cor do LED RGB.
-
-4. smooth_servo_movement:
+3. smooth_servo_movement:
 
 - Move o servomotor suavemente entre duas posições, incrementando ou decrementando o ciclo ativo de ±5µs com um atraso de 10ms.
 
@@ -135,4 +131,4 @@ add_executable(pwm
 
 - Compile e carregue o código no Raspberry Pi Pico.
 
-- Observe o servomotor se movendo suavemente entre os ângulos de 0 e 180 graus e o LED RGB mudando de cor conforme o movimento do servomotor.
+- Observe o servomotor se movendo suavemente entre os ângulos de 0 e 180 graus e o LED RGB piscando conforme o movimento do servomotor.
